@@ -1,0 +1,87 @@
+body{
+  background-color: gray;
+  background-image: url(./assets/fundo.jpg);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(4, 97, 4);opacity: 0.8;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+  width: 100%;
+  
+  
+}
+
+.title{
+  flex-direction: column;
+  line-height: 10px;
+  font-size: larger;
+}
+
+li{
+  display: inline-block;
+  list-style: none;
+  margin: 20px;
+  font-size: 30px;
+  
+}
+
+a{
+  color: white;
+  
+}
+
+a:hover{
+  color: red;
+  transition: 0.3s all;
+}
+
+h1{
+  font-weight: 300px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content:space-evenly;
+  backdrop-filter: blur(30px);
+  padding: 25px;
+}
+
+img{
+  width: 600px;
+  border-radius: 100%;
+  border: 2px solid green;  
+}
+
+h2{
+  font-size: 56px;
+  line-height: 10px;
+}
+
+
+span{
+  color: green;
+}
+
+p{
+  text-align: justify;
+  max-width: 500px;
+  line-height: 20px;
+}
+
+.caotico{
+  color: red;
+}
